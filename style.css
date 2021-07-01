@@ -1,0 +1,109 @@
+*{
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.logo-img{
+    width: 150px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.right-img{
+    display: none;
+    height: 100vh   ;
+}
+.heading{
+    line-height: 1 !important;
+    letter-spacing: 0.3em;
+    font-size: 3rem;
+    color: hsl(0, 6%, 24%) !important;
+    text-align: center;
+}
+h1 span{
+    color: hsl(0 34% 70% / 1) !important;
+}
+.parag{
+    text-align: center;
+    color: hsl(0 34% 70% / 1);
+    line-height: 1.3em;
+    font-size: 1.3rem;
+}
+.left-col{
+    text-align: left;
+    padding-bottom: 0;
+}
+.right-col{
+    display: none;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.right-img{
+    display: none;
+    width: 100%;
+}
+input{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid hsl(0 34% 70% / 1);
+    color: hsl(0deg 80% 86%);
+    font-size: 1rem;
+}
+input::placeholder{
+    color: hsl(0 34% 70% / 1);
+}
+input:focus{
+    box-shadow: 2px 2px 30px 1px hsl(0deg 80% 86%); 
+}
+.input-div{
+    position: relative;
+}
+.submit{
+    width: 75px;
+    padding: 23px;
+    border-radius: 30px;
+    border: 1px solid hsl(0 34% 70% / 1);
+    color: white;
+    background-image: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    position: absolute;
+    top: -2px;
+    right: 0;
+    cursor: pointer;
+    border: none !important;
+    outline: none !important;
+}
+.submit:hover{
+    box-shadow: 2px 2px 20px 1px hsl(0deg 80% 86%); 
+}
+#error-img{
+    display: none;
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    margin-right: 50px;
+}
+#invalid{
+    color: hsl(0, 93%, 68%);;
+}
+
+@media screen and (min-width: 992px) {
+    .heading{
+        font-size: 4rem !important;
+        text-align: left;
+    }
+    input{
+        width: 100%;
+        border-radius: 30px;
+        outline: none;
+        border: 1px solid hsl(0 34% 70% / 1);
+        color: hsl(0deg 80% 86%)
+    }
+    input::placeholder{
+        color: hsl(0 34% 70% / 1);
+    }
+    .submit{
+        width: 100px;
+    }
+    
+ }
